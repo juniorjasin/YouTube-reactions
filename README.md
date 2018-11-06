@@ -27,9 +27,43 @@ si presionamos __clasificar__, se comenzara a ver comentarios y luego podremos i
 
 ![alt text](https://github.com/juniorjasin/YouTube-reactions/blob/master/img/c_me_encnata.png)
 
+# Getting Started 
 
+## Prerequisites
+`nodejs`
+
+## Installing
+
+### Para utilizar la api de YouTube
+```
+npm install googleapis@21.3.0 --save
+npm install google-auth-library@0.12.0 --save
+```
+
+### Para utiizar la red neuronal
+
+```
+npm install brain.js --save
+npm install mimir --save
+```
+### Para levantar la web
+```
+npm install express
+npm install body-parser
+npm install request
+```
 
 # Como usarlo
+
+Como utilizar este proyecto
+
+TL;DR
+
+```
+$ nodejs yt.js
+$ nodejs index.js
+$ nodejs web.js
+```
 
 Primero para comenzar, se debera tener credenciales para poder utilizar la API de YouTube, que se guardaran en `client_secret.json`.
 
