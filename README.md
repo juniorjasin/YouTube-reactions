@@ -33,7 +33,10 @@ si presionamos __clasificar__, se comenzara a ver comentarios y luego podremos i
 
 Primero para comenzar, se debera tener credenciales para poder utilizar la API de YouTube, que se guardaran en `client_secret.json`.
 
-Luego se debera entrenar la red neuronal, que se encuentra en el archivo `index.js` donde lee desde un archivo `input.json` que ya contiene datos clasificados.
+Para ello ejecutamos el archivo `yt.js`
 
+Luego se debera entrenar la red neuronal, ejecutamos el archivo `index.js`, que lee un archivo `input.json` que ya contiene datos clasificados.
+
+Por ultimo ejecutamos el archivo `web.js` que levanta una pagina web en [http://localhost:3001/](http://localhost:3001/)
 
 
