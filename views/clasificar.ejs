@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+
+    <h1>Clasificar</h1>
+    <h2 id="icomentario" style="color:#FFF">
+        <%= comentario %>
+    </h2>
+
+    <form action="/clasificar">
+        <input type="submit" class="button button5" value="Siguiente Comentario" />
+        
+        <span>Posibles reactiones</span>
+        <div class="bar">
+            <div class="circle"onclick="get_reaction('me_gusta')">
+            </div>
+            <div class="circle"onclick="get_reaction('me_encanta')">
+            </div>
+            <div class="circle"onclick="get_reaction('me_divierte')">
+            </div>
+            <div class="circle"onclick="get_reaction('me_asombra')">
+            </div>
+            <div class="circle"onclick="get_reaction('me_entristece')">
+            </div>
+            <div class="circle"onclick="get_reaction('me_enoja')">
+            </div>
+            <div class="circle"onclick="get_reaction('me_piden')">
+            </div>
+        </div>
+
+    </form>
+</body>
+
+
+
+</html>
